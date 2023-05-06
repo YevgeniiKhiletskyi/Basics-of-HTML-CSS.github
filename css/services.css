@@ -1,0 +1,378 @@
+.header {
+  background: url("../img/Images/bg/headline.jpg") center center / cover no-repeat;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1141px;
+}
+
+.header-list-logo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 93px;
+}
+
+.logo-header {
+  display: flex;
+  align-items: center;
+  width: 27.8%;
+  justify-content: space-between;
+}
+
+.logo-header_aligt-right {
+  justify-content: flex-end;
+}
+
+.logo {
+  display: flex;
+  margin-top: 24px;
+}
+
+.logo::before {
+  content: "";
+  width: 97px;
+  height: 40px;
+  background: url("../img/Images/Air_Asia-logo.png") center center / cover no-repeat;
+}
+
+.menu-list {
+  display: flex;
+  margin-top: 23px;
+}
+
+.menu-item {
+  margin-right: 35%;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.menu-home:hover {
+  color: #DA0100;
+}
+
+.menu-services {
+  color: #DA0100;
+}
+
+.menu-reviews:hover {
+  color: #DA0100;
+}
+
+.menu-link {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.contacts-header {
+ font-style: normal;
+ margin-top: 22px;
+}
+
+.contacts-header:last-child {
+  margin-bottom: 0;
+}
+
+.contacts-phone {
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.contacts-workhours {
+  text-align: right;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.contacts-workhours:hover .tooltip-time {
+  display: block;
+}
+
+.tooltip-time {
+  position: absolute;
+  margin-left: 23px;
+  border-radius: 6px;
+  background: #fff;
+  color: black;
+  border: 1px solid black;
+  padding: 16px;
+  width: 168px;
+  display: none;
+  opacity: 0.5;
+}
+
+.header-title {
+  display: flex;
+  align-items: flex-start;
+  width: 45%;
+  min-height: 243px;
+  flex-direction: column;
+  margin-bottom: 98px;
+}
+
+.title {
+  font-size: 71.5px;
+  font-weight: bold;
+  margin-bottom: 96px;
+}
+
+.title-list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.services {
+  font-weight: bold;
+}
+
+.main {
+  background: #fff;
+  color: #303030;
+}
+
+.servis {
+  display: flex;
+}
+
+.services-item_main {
+  width: 40.5%;
+  margin-right: 4.5%;
+  margin-bottom: 47px;
+}
+
+.servis-main {
+  display: flex;
+  width: 99%;
+  max-height: 333px;
+  border-radius: 4px;
+}
+
+.name {
+  flex: 1;
+}
+
+.name-services {
+  margin-top: 15px;
+  color: #000000;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+
+.text {
+  line-height: 1.7;
+  margin-bottom: 47px;
+  margin-top: 27px;
+}
+
+.btn {
+  background: #f5170e;
+  border-radius: 35px;
+  padding: 16px 39px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid #F5170E;
+}
+
+.btn:hover {
+  background: #da0100;
+  color: #fff;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #F5170E;
+}
+
+.paginator {
+  margin-top: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.paginator-display {
+  margin-right: 26px;
+} 
+ 
+.paginator-list {
+  display: flex;
+  align-items: center;
+}
+
+.paginator-item {
+  text-align: center;
+}
+
+.paginator-item_active .paginator-link:hover {
+  background:#F5170E;
+  color: #fff;
+}
+
+.paginator-link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.section-banner {
+  background:#F4F5F5;
+  color: #1A1B1E;
+  padding: 116px 0;
+}
+
+.banner-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 65px;
+}
+
+.banner-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banner {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  width: 284px;
+  height: 100px;
+}
+
+.footer {
+  background-color: #001821;
+}
+
+.footer-list-logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-footer {
+  display: flex;
+  align-items: center;
+  width: 27.8%;
+  justify-content: space-between;
+}
+
+.logo-footer_aligt-right {
+  justify-content: flex-end;
+}
+
+.logo-link {
+  display: flex;
+  margin-top: 4px;
+}
+
+.logo-link::before {
+  content: "";
+  width: 97px;
+  height: 40px;
+  background: url("../img/Images/Air_Asia-logo.png") center center / cover no-repeat;
+}
+
+.footer-list {
+  display: flex;
+  margin-top: 6px;
+}
+
+.menu-item {
+  margin-right: 35%;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.menu-link {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.socials-list {
+  padding-top: 49px;
+  margin-left: 310px;
+  display: flex;
+  justify-content: space-between;
+  width: 15.5%;
+}
+
+.socials {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+}
+
+.socials-item-icon_t .socials {
+  background-image: url("../img/Images/icons/socials/t.png");
+}
+
+.socials-item-icon_t .socials:hover {
+  background-image: url("../img/Images/icons/socials/t2.png");
+}
+
+.socials-item-icon_vk .socials {
+  background-image: url("../img/Images/icons/socials/vk.png");
+}
+
+.socials-item-icon_vk .socials:hover {
+  background-image: url("../img/Images/icons/socials/vk2.png");
+}
+
+.socials-item-icon_vk .socials:active {
+  background-image: url("../img/Images/icons/socials/vk-blue.png");
+}
+
+.socials-item-icon_f .socials {
+  background-image: url("../img/Images/icons/socials/f.png");
+}
+
+.socials-item-icon_f .socials:hover {
+  background-image: url("../img/Images/icons/socials/f2.png");
+}
+
+.socials-item-icon_in .socials {
+  background-image: url("../img/Images/icons/socials/in.png");
+}
+
+.socials-item-icon_in .socials:hover {
+  background-image: url("../img/Images/icons/socials/in2.png");
+}
+
+.contacts-footer {
+  font-style: normal;
+  margin-top: 40px;
+  margin-bottom: 34px;
+}
+ 
+.contacts-footer:last-child {
+  margin-right: 0;
+}
+ 
+.contacts-phone_footer {
+  font-size: 26px;
+  text-decoration: none;
+}
+ 
+.contacts-workhours_footer {
+  text-align: right;
+  font-size: 13px;
+  text-decoration: underline;
+}

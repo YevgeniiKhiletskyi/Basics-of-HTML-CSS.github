@@ -1,0 +1,103 @@
+.footer {
+  display: flex;
+  background-color: #001821;
+  padding-top: 45px;
+  padding-bottom: 34px;
+}
+
+.section-footer {
+  display: flex;
+}
+
+.footer-logo {
+  width: 87px;
+  height: 37px;
+  position: relative;
+  content: url("../../img/Images/Air_Asia-logo.png");
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-left: 78px;
+}
+.footer-list {
+  display: flex;
+  width: 263px;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-right: 276px;
+}
+
+.footer-menu_socials {
+  display: flex;
+  justify-content: space-between;
+  width: 173px;
+  margin-top: 5px;
+}
+
+.socials {
+  display: flex;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+}
+
+.menu-socials_t .socials {
+  background-image: url("../../img/Images/icons/socials/t.png");
+}
+
+.menu-socials_t .socials:hover {
+  background-image: url("../../img/Images/icons/socials/t2.png");
+}
+
+.menu-socials_v .socials {
+  background-image: url("../../img/Images/icons/socials/v.png");
+}
+
+.menu-socials_v .socials:hover {
+  background-image: url("../../img/Images/icons/socials/v2.png");
+}
+
+.menu-socials_v .socials:active {
+  background-image: url("../../img/Images/icons/socials/v-a.png");
+}
+
+.menu-socials_f .socials {
+  background-image: url("../../img/Images/icons/socials/f.png");
+}
+
+.menu-socials_f .socials:hover {
+  background-image: url("../../img/Images/icons/socials/f2.png");
+}
+
+.menu-socials_in .socials {
+  background-image: url("../../img/Images/icons/socials/in.png");
+}
+
+.menu-socials_in .socials:hover {
+  background-image: url("../../img/Images/icons/socials/in2.png");
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.footer-contacts_workhours {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.footer-phone {
+  font-size: 26px;
+  text-decoration: none;
+  font-style: normal;
+}

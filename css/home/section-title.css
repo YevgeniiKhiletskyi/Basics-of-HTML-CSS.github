@@ -1,0 +1,21 @@
+.section-title {
+  display: flex;
+  align-items: flex-start;
+  width: 45%;
+  min-height: 300px;
+  flex-direction: column;
+  margin-bottom: 246px;
+}
+
+.title {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 19px;
+}
+
+.subtitle {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}

@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  margin-bottom: 120px;
+}
+
+.header-menu {
+  width: 264px;
+  font-size: 14px;
+  margin-top: 13px;
+  margin-left: 78px;
+}
+
+.header-col_left {
+  display: flex;
+}
+
+.header-logo {
+  width: 87px;
+  height: 37px;
+  position: relative;
+  content: url("../../img/Images/Air_Asia-logo.png");
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-home {
+  color: #DA0100;
+}
+
+.menu-services:hover {
+  color: #DA0100;
+}
+
+.menu-reviews:hover {
+  color: #DA0100;
+}
+
+.menu-exit:hover {
+  color: #DA0100;
+}
+
+.menu-items {
+  font-size: 16px;
+}
+
+.menu-link {
+  text-decoration: none;
+}
+
+.header-col_right {
+  display: flex;
+}
+
+.header-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.header-phone {
+  font-size: 26px;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.header-contacts_workhours {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.header-contacts_workhours:hover .tooltip-time {
+  display: flex;
+  position: absolute;
+}

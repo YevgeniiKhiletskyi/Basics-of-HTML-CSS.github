@@ -1,0 +1,25 @@
+.btn {
+  background: #f5170e;
+  border-radius: 35px;
+  padding: 17px 63px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid #F5170E;
+}
+
+.btn:hover {
+  background: #da0100;
+  color: #fff;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #F5170E;
+}
+
+.btn-tours {
+  padding: 17px 47px;
+}

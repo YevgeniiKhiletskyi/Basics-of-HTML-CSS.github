@@ -1,0 +1,544 @@
+.header {
+  background: url("../img/Images/bg/headline.jpg") center center / cover no-repeat;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1141px;
+}
+
+.header-list-logo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 93px;
+}
+
+.logo-header {
+  display: flex;
+  align-items: center;
+  width: 27.8%;
+  justify-content: space-between;
+}
+
+.logo-header_aligt-right {
+  justify-content: flex-end;
+}
+
+.logo {
+  display: flex;
+  margin-top: 24px;
+}
+
+.logo::before {
+  content: "";
+  width: 97px;
+  height: 40px;
+  background: url("../img/Images/Air_Asia-logo.png") center center / cover no-repeat;
+}
+
+.menu-list {
+  display: flex;
+  margin-top: 23px;
+}
+
+.menu-item {
+  margin-right: 35%;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.menu-home:hover {
+  color: #DA0100;
+}
+
+.menu-services:hover {
+  color: #DA0100;
+}
+
+.menu-reviews {
+  color: #DA0100;
+}
+
+.menu-link {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.contacts-header {
+ font-style: normal;
+ margin-top: 22px;
+}
+
+.contacts-header:last-child {
+  margin-bottom: 0;
+}
+
+.contacts-phone {
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.contacts-workhours {
+  text-align: right;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.contacts-workhours:hover .tooltip-time {
+  display: block;
+}
+
+.tooltip-time {
+  position: absolute;
+  margin-left: 23px;
+  border-radius: 6px;
+  background: #fff;
+  color: black;
+  border: 1px solid black;
+  padding: 16px;
+  width: 168px;
+  display: none;
+  opacity: 0.5;
+}
+
+.header-title {
+  display: flex;
+  align-items: flex-start;
+  width: 45%;
+  min-height: 243px;
+  flex-direction: column;
+  margin-bottom: 98px;
+}
+
+.title {
+  font-size: 71.5px;
+  font-weight: bold;
+  margin-bottom: 96px;
+}
+
+.title-list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.services {
+  font-weight: bold;
+}
+
+.reviews-list {
+  column-count: 2;
+  column-gap: 25px;
+}
+
+.reviews-item {
+  margin-bottom: 20px;
+}
+
+.review {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 39px 34px 28px;
+  background: #F4F5F5;
+  border-radius: 5px;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.review-user {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1A1B1E;
+  margin: 0 10px 11px 21px;
+}
+
+.review-user:hover {
+  color: #2E77A4;
+}
+
+.review-user::after {
+  content: url("../img/Images/icons/socials/vk-blue.png");
+  height: 29px;
+  margin-left: 7px;
+}
+
+.userpic {
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.tags-list {
+  display: flex;
+  align-items: flex-start;
+}
+
+.tag-item {
+  margin-left: 22px;
+}
+
+.tag {
+  font-size: 13px;
+  color: #303030;
+  padding: 8px 16px;
+  border-radius: 50px;
+  background: #E7E7E7;
+}
+
+.tag-bg-green {
+  background: #B9EAE4;
+}
+
+.content-title {
+  font-size: 30px;
+  color: #1A1B1E;
+  font-weight: bold;
+  margin-bottom: 19px;
+}
+
+.content-text {
+  color: #818181;
+  margin-bottom: 43px;
+  line-height: 1.7;
+}
+
+.content-date {
+  font-size: 14px;
+  color: #1A1B1E;
+  font-weight: bold;
+}
+
+.paginator {
+  margin-top: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 89px;
+  color: #000000;
+}
+
+.paginator-display {
+  margin-right: 26px;
+} 
+ 
+.paginator-list {
+  display: flex;
+  align-items: center;
+}
+
+.paginator-item {
+  text-align: center;
+}
+
+.paginator-item_active .paginator-link:hover {
+  background:#F5170E;
+  color: #fff;
+}
+
+.paginator-link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.rectangle {
+  background: url("../img/Images/bg/middleline.jpg") center center / cover no-repeat;
+  margin-left: 0;
+  margin-right: 0;
+  min-height: 361px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rectangle-content {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.rectangle-text {
+  
+  margin-top: 126px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  width: 50%;
+}
+
+.content {
+  height: 341px;
+  width: auto;
+  margin-top: 20px;
+  
+}
+
+.section-banner {
+  background: #F4F5F5;
+  color: #1A1B1E;
+  padding: 73px 0px 99px;
+}
+
+.banner-title {
+  font-size: 51px;
+  font-weight: bold;
+  margin-bottom: 43px;
+} 
+
+.form-list {
+  display: flex;
+  margin-bottom: 28px;
+}
+
+.form-input {
+  flex: 1;
+  margin-right: 30px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background: #fff;
+  padding: 20px 29px;
+  font-size: 18px;
+  color: #1A1B1E;
+}
+
+.form-input:hover {
+  border: 1px solid #F5170E;
+}
+
+
+.form-input:last-child {
+  margin-right: 0;
+}
+
+.form-input-textarea {
+  height: 235px;
+}
+
+.form-btn {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.form-btn-title {
+  width: 33%;
+  margin-top: 5px;
+}
+
+.btn-list {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.btn-item {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.btn-elem {
+  cursor: pointer;
+}
+
+.btn-checkbox:checked ~ .btn-tag {
+  background: #B9EAE4;
+}
+
+.btn-checkbox {
+  display: none;
+}
+
+.form-btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  border-radius: 35px;
+  padding: 16px 39px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn-rad{
+  background: #da0100;
+  border: 1px solid #F5170E;
+  color: #fff;
+}
+
+.btn-rad:hover {
+  background: #fff;
+  border: 1px solid #F5170E;
+  color: #F5170E;
+}
+
+.btn-grey {
+  background-color: #2B2B2B;
+  border: 1px solid#2B2B2B;
+  color: #fff;
+}
+
+.btn-grey:hover {
+  background-color: #fff;
+  border: 1px solid#8E8E8E;
+  color: #8E8E8E;
+}
+
+.btn-form {
+  margin-right: 20px;
+} 
+
+.btn-form:last-child {
+  margin-right: 0;
+}
+
+
+
+
+.footer {
+  background-color: #001821;
+}
+
+.footer-list-logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-footer {
+  display: flex;
+  align-items: center;
+  width: 27.8%;
+  justify-content: space-between;
+}
+
+.logo-footer_aligt-right {
+  justify-content: flex-end;
+}
+
+.logo-link {
+  display: flex;
+  margin-top: 4px;
+}
+
+.logo-link::before {
+  content: "";
+  width: 97px;
+  height: 40px;
+  background: url("../img/Images/Air_Asia-logo.png") center center / cover no-repeat;
+}
+
+.footer-list {
+  display: flex;
+  margin-top: 6px;
+}
+
+.menu-item {
+  margin-right: 35%;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.menu-services {
+  color: #fff;
+}
+
+.menu-services:hover {
+  color: #DA0100;
+}
+
+.menu-link {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.socials-list {
+  padding-top: 49px;
+  margin-left: 310px;
+  display: flex;
+  justify-content: space-between;
+  width: 15.5%;
+}
+
+.socials {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+}
+
+.socials-item-icon_t .socials {
+  background-image: url("../img/Images/icons/socials/t.png");
+}
+
+.socials-item-icon_t .socials:hover {
+  background-image: url("../img/Images/icons/socials/t2.png");
+}
+
+.socials-item-icon_vk .socials {
+  background-image: url("../img/Images/icons/socials/vk.png");
+}
+
+.socials-item-icon_vk .socials:hover {
+  background-image: url("../img/Images/icons/socials/vk2.png");
+}
+
+.socials-item-icon_vk .socials:active {
+  background-image: url("../img/Images/icons/socials/vk-blue.png");
+}
+
+.socials-item-icon_f .socials {
+  background-image: url("../img/Images/icons/socials/f.png");
+}
+
+.socials-item-icon_f .socials:hover {
+  background-image: url("../img/Images/icons/socials/f2.png");
+}
+
+.socials-item-icon_in .socials {
+  background-image: url("../img/Images/icons/socials/in.png");
+}
+
+.socials-item-icon_in .socials:hover {
+  background-image: url("../img/Images/icons/socials/in2.png");
+}
+
+.contacts-footer {
+  font-style: normal;
+  margin-top: 40px;
+  margin-bottom: 34px;
+}
+ 
+.contacts-footer:last-child {
+  margin-right: 0;
+}
+ 
+.contacts-phone_footer {
+  font-size: 26px;
+  text-decoration: none;
+}
+ 
+.contacts-workhours_footer {
+  text-align: right;
+  font-size: 13px;
+  text-decoration: underline;
+}

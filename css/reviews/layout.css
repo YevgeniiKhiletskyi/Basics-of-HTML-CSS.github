@@ -1,0 +1,46 @@
+body {
+  font-family: 'Open Sans', sans-serif;  /* выбор шрифта */
+  color: #ffffff;                      /* цвет шрифта */
+  font-size: 16px;                       /* Определяет размер шрифта элемента */
+  line-height: 1.42;                     /* междустрочный пробел */
+  /* background: #001822;                 цвет фона */
+  -webkit-font-smoothing: antialiased;   /* свойства для сглаживания шрифта */
+  margin: 0 0;
+}
+
+a {
+  color: inherit;   /* цвет для ссылок, inherit - наследование от блока */
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none; /*убрать точки стилей*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin-top: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.page {
+  background: url("../../img/Images/bg/headline.jpg") center top / 100% 412px no-repeat;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1141px;
+}

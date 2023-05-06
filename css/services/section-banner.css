@@ -1,0 +1,59 @@
+.banner {
+  background:#F4F5F5;
+  color: #1A1B1E;
+  margin-bottom: 78px;
+}
+
+.banner-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 65px;
+}
+
+.banner-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banner-item {
+  width: 285px;
+} 
+
+.banner-link {
+  display: flex;
+  height: 119px;
+  background: left center no-repeat;
+}
+
+
+.banner-item_lufthansa .banner-link {
+  background-image: url("../../img/Images/icons/partners/lufthansa.png");
+}
+
+.banner-item_lufthansa .banner-link:hover {
+  background-image: url("../../img/Images/icons/partners/hover/lufthansa-hover.png");
+}
+
+.banner-item_airbaltic .banner-link {
+  background-image: url("../../img/Images/icons/partners/airbaltic.png");
+}
+
+.banner-item_airbaltic .banner-link:hover {
+  background-image: url("../../img/Images/icons/partners/hover/airbaltic.png");
+}
+
+.banner-item_pegasus .banner-link {
+  background-image: url("../../img/Images/icons/partners/pegasus.png");
+}
+
+.banner-item_pegasus .banner-link:hover {
+  background-image: url("../../img/Images/icons/partners/hover/pegasus.png");
+}
+
+.banner-item_pegas .banner-link {
+  background-image: url("../../img/Images/icons/partners/pegas.png");
+}
+
+.banner-item_pegas .banner-link:hover {
+  background-image: url("../../img/Images/icons/partners/hover/pegas.png");
+}

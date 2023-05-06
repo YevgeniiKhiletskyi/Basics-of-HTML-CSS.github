@@ -1,0 +1,23 @@
+.section-rectangle {
+  background: url("../../img/Images/bg/middleline.jpg") center center / cover no-repeat;
+}
+
+.rectangle-content {
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 59px;
+}
+
+.rectangle-text {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.rectangle-img {
+  margin-top: 20px;
+}
+

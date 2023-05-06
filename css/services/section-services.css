@@ -1,0 +1,37 @@
+.services {
+  margin-bottom: 172px;
+}
+
+.services-item {
+  display: flex;
+}
+
+.service {
+  width: 40.7%;
+  margin-right: 4.5%;
+  margin-bottom: 50px;
+}
+
+.service_img {
+  display: flex;
+  width: 99%;
+  max-height: 333px;
+  border-radius: 4px;
+}
+
+.services-name {
+  flex: 1;
+}
+
+.service-name {
+  color: #000000;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 30px;
+}
+
+.service_text {
+  line-height: 1.7;
+  margin-bottom: 47px;
+}

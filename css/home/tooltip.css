@@ -1,0 +1,30 @@
+.tooltip-time {
+  width: 160px;
+  font-weight: 300;
+  margin-top: 25px;
+  display: none;
+} 
+
+.tooltip-job {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 159px;
+  height: 68px;
+  color: #000;
+  background: rgb(252, 252, 252);
+  border-radius: 4px;
+  padding: 13px;
+  opacity: 0.8;
+} 
+
+.tooltip-job::after {
+  content: "";
+  position: absolute;
+  border: 12px solid transparent;
+  border-bottom-color: rgb(252, 252, 252);
+  border-top-width: 0;
+  margin-top: -22px;
+  margin-left: 55px;
+}

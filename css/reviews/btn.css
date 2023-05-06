@@ -1,0 +1,29 @@
+.btn {
+  background-color: #f5170e;
+  border-radius: 35px;
+  padding: 19px 59px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid;
+}
+
+.btn-grey {
+  background-color: #2B2B2B;
+  color: #fff;
+}
+
+.btn-grey:hover {
+  background-color: #8E8E8E;
+  color: #fff;
+}
+
+.btn-form {
+  margin-right: 20px;
+} 
+
+.btn-form:last-child {
+  margin-right: 0;
+}
