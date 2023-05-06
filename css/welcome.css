@@ -1,3 +1,54 @@
+body {
+  font-family: 'Open Sans', sans-serif;  /* выбор шрифта */
+  color: #ffffff;                      /* цвет шрифта */
+  font-size: 18px;                       /* Определяет размер шрифта элемента */
+  line-height: 1.42;                     /* междустрочный пробел */
+  margin: 0;
+  -webkit-font-smoothing: antialiased;   /* свойства для сглаживания шрифта */
+}
+
+
+a {
+  color: inherit;   /* цвет для ссылок, inherit - наследование от блока */
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none; /*убрать точки стилей*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin-top: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+body, html {
+  height: 100%;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 .welcome {
   display: flex;
   position: fixed;
